@@ -1,13 +1,11 @@
 package domain
 
-import criterios.CriterioDeAprovacao
-import Boletim
-import org.junit.jupiter.api.BeforeEach
+import domain.criterios.CriterioDeAprovacao
 
 class AnalisadorDeAprovacao {
     private lateinit var criterio: CriterioDeAprovacao
     
-    @BeforeEach
+
     fun defineCriterio(criterioDeAprovacao : CriterioDeAprovacao){
         criterio = criterioDeAprovacao
     }
